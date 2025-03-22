@@ -34,5 +34,7 @@
             - name: Test the model
               run: |
                 pytest
-            
+            - name: Build the wheel package
+              run: |
+                build          
           
