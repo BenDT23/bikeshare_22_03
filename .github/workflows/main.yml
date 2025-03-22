@@ -37,5 +37,5 @@
                 pytest
             - name: Build the wheel package
               run: |
-                build          
+                python -m build          
           
