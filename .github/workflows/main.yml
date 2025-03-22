@@ -37,6 +37,6 @@
                 pytest
             - name: Build the wheel package
               run: |
-                pwd
+                cd bikeshare_project
                 python -m build          
           
